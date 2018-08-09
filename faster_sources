@@ -1,0 +1,8 @@
+deb http://free.nchc.org.tw/linuxmint/packages/ maya main upstream import backport
+
+deb http://mirrors.163.com/ubuntu/ precise main universe multiverse restricted
+deb http://mirrors.163.com/ubuntu/ precise-security main universe multiverse restricted
+deb http://mirrors.163.com/ubuntu/ precise-updates main universe multiverse restricted
+
+deb http://archive.canonical.com/ubuntu/ precise partner
+deb http://packages.medibuntu.org/ precise free non-free
