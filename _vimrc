@@ -60,6 +60,7 @@ Bundle 'dyng/ctrlsf.vim'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'derekwyatt/vim-protodef'
 Bundle 'fatih/vim-go'
+Bundle 'vim-erlang/vim-erlang-omnicomplete'
 
 " c) 指定非Github的Git仓库的插件，需要使用git地址  
 " Bundle 'git://git.wincent.com/command-t.git'  
