@@ -103,6 +103,10 @@ set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1
 set foldmethod=syntax
 " 启动 vim 时关闭折叠代码
 set nofoldenable
+" last line
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
 
 " vim-powerline
 set laststatus=2
